@@ -18,14 +18,14 @@
 //  You should have received a copy of the GNU General Public License
 //  along with NeoGPS.  If not, see <http://www.gnu.org/licenses/>.
 
-#include "NMEAGPS_cfg.h"
+#include "../NMEAGPS_cfg.h"
 // Disable the entire file if derived types are not allowed.
 #ifdef NMEAGPS_DERIVED_TYPES
 
-#include "ublox/ubxNMEA.h"
-#include "ublox/ubxmsg.h"
-#include "GPSTime.h"
-#include "ublox/ubx_cfg.h"
+#include "ubxNMEA.h"
+#include "ubxmsg.h"
+#include "../GPSTime.h"
+#include "ubx_cfg.h"
 
 #if !defined(UBLOX_PARSE_STATUS)  & !defined(UBLOX_PARSE_TIMEGPS) & \
     !defined(UBLOX_PARSE_TIMEUTC) & !defined(UBLOX_PARSE_POSLLH)  & \

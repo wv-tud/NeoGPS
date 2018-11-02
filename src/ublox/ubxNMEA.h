@@ -18,7 +18,7 @@
 //  You should have received a copy of the GNU General Public License
 //  along with NeoGPS.  If not, see <http://www.gnu.org/licenses/>.
 
-#include "NMEAGPS_cfg.h"
+#include "../NMEAGPS_cfg.h"
 
 // Disable the entire file if derived types are not allowed.
 #ifdef NMEAGPS_DERIVED_TYPES

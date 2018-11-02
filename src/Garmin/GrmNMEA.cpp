@@ -15,7 +15,7 @@
 //  You should have received a copy of the GNU General Public License
 //  along with NeoGPS.  If not, see <http://www.gnu.org/licenses/>.
 
-#include "Garmin/GrmNMEA.h"
+#include "GrmNMEA.h"
 
 // Disable the entire file if derived types are not allowed,
 //    *or* if no PUBX messages are enabled.
